@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My Interactive Photo Gallery</h1>
+  </header>
+
+  <main>
+    <h2>Preview</h2>
+    <div id="image">Hover over an image below to display here.</div>
+
+    <h2>Photos</h2>
+    <div class="gallery">
+      <img class="preview" src="images/photo1.jpg" alt="Rice field"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/photo2.jpg" alt="Rice field"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/photo3.jpg" alt="Rice field"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/photo4.jpg" alt="Sea"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/photo5.jpg" alt="Sea"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/photo6.jpg" alt="Sea"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Interactive Photo Gallery</p>
+  </footer>
+</body>
+</html>
